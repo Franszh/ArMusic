@@ -115,7 +115,7 @@ fun DrawerMenu(
                 TopAppBar(
                     title = { Title() },
                     elevation = 0.dp,
-                    windowInsets = WindowInsets(0),
+                    windowInsets = WindowInsets(top = 30.dp),
                     navigationIcon = {
                         IconButton(onClick = {
                             scope.launch {
@@ -126,7 +126,7 @@ fun DrawerMenu(
                                 }
                             }
                         }) {
-                            Image(painter = painterResource(R.drawable.iconmenu), contentDescription = "", modifier = Modifier.size(50.dp).padding(top = 5.dp))
+                            Image(painter = painterResource(R.drawable.iconmenu), contentDescription = "", modifier = Modifier.size(50.dp))
 
                         }
                     },

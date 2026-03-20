@@ -63,7 +63,8 @@ fun Title(){
     )
 
     Box(
-        modifier = Modifier.fillMaxWidth().padding(top = 5.dp, start = 110.dp)
+        modifier = Modifier.fillMaxWidth().padding(end = 50.dp),
+        contentAlignment = Alignment.Center
     ) {
         Text(text = "ArMusic", style = TextStyle(
                 fontSize = 30.sp,

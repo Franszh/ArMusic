@@ -38,14 +38,14 @@ El objetivo principal es **aprendizaje y experimentación arquitectónica**.
 
 ### Pantalla Principal
 
-![Home Screen](docs/images/fram1)
+![Home Screen](docs/images/frame1.svg)
 
 ### Reproductor
 
-![Player Screen](docs/images/fram2)
+![Player Screen](docs/images/fram2.svg)
 
 ### Listas guardadas
-![Search Screen](docs/images/fram3)
+![Search Screen](docs/images/fram3.svg)
 
 ---
 
